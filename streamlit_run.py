@@ -5,8 +5,7 @@ import altair as alt
 st.write("My first Streamlit app 🎈")
 
 st.video(
-  "index.mp4",
-  subtitles="index.vtt"
+  "index.mp4"
 )
 
 @st.cache_data
